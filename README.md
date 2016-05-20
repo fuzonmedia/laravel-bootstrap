@@ -21,6 +21,6 @@ This source code will help developer to start development quickly . This tool co
 
 Live setup : http://laravel-demo.fuzonmedia.in/ [User : abc@gmail.com /  Password :  123456 / api_token : ykGC3YdJFCpBOiaq6u5UEBohZceEIUewOhxSI2iSA2Hy1NqFdD9YMCFkqd59]
 
-Interactive API Doc : docs.laraveldemo.apiary.io
+Interactive API Doc : http://docs.laraveldemo.apiary.io
 
-More cool stuff & important things will be adding in next version
+More cool & important stuff will be adding in next version
