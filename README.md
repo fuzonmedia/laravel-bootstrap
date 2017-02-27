@@ -18,8 +18,10 @@ This source code will help developer to start development quickly . This tool co
 9. Restful API (GET , POST , PUT , DELETE) with api_token authentication . Block unauthenticated API call (Auth middleware customized).
 10. Modern interactive API documentation.  
 11. SQL migration / dump supplied (/db_sample).
+12. Environment variable used (CLEARDB_DATABASE/ Mysql)
+13. Ready to deploy for Heroku PHP apache server
 
-Live setup : http://laravel-demo.fuzonmedia.in/ [User : abc@gmail.com /  Password :  123456 / api_token : ykGC3YdJFCpBOiaq6u5UEBohZceEIUewOhxSI2iSA2Hy1NqFdD9YMCFkqd59]
+Live setup : http://rest-laravel-api.herokuapp.com/ [User : abc@gmail.com /  Password :  123456 / api_token : ykGC3YdJFCpBOiaq6u5UEBohZceEIUewOhxSI2iSA2Hy1NqFdD9YMCFkqd59]
 
 Interactive API Doc : http://docs.laraveldemo.apiary.io
 
