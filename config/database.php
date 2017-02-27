@@ -54,11 +54,11 @@ return [
 
         'mysql' => [
             'driver' => 'mysql',
-            'host' => env('DB_HOST', 'localhost'),
+            'host' => env('DB_HOST', $_ENV["CLEARDB_DATABASE_HOST"]),
             'port' => env('DB_PORT', '3306'),
-            'database' => env('DB_DATABASE', 'forge'),
-            'username' => env('DB_USERNAME', 'forge'),
-            'password' => env('DB_PASSWORD', ''),
+            'database' => env('DB_DATABASE', $_ENV["CLEARDB_DATABASE_NAME"]),
+            'username' => env('DB_USERNAME', $_ENV["CLEARDB_DATABASE_USER"]),
+            'password' => env('DB_PASSWORD', $_ENV["CLEARDB_DATABASE_PASSWORD"]),
             'charset' => 'utf8',
             'collation' => 'utf8_unicode_ci',
             'prefix' => '',
